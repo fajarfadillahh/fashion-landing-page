@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fasion Landing Page</title>
+
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <nav class="nav bg-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <ion-icon name="reorder-two-outline"></ion-icon>
+        </div>
+
+        <div>
+          <a href="#" class="nav__logo">Fasion</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Woman</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Man</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__icon-cart">
+          <ion-icon name="cart-outline"></ion-icon>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main class="main">
+      <div class="home">
+        <div class="home__primary">
+          <h1 class="home__title">Fasion Online <br />Store</h1>
+
+          <div class="home__img">
+            <img src="./img/img-home.jpg" alt="Home Image" />
+          </div>
+        </div>
+
+        <div class="home__secondary">
+          <a href="#" class="home__scroll">SCROLL DOWN</a>
+          <span class="home__year">2020</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ION ICONS -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
